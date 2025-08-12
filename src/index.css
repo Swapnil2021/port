@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@font-face{
+  font-family: "Tan Kulture Display";
+  src:url(../src/assets/TAN\ KULTURE-DISPLAY.otf)
+
+}
+
+.Tan{
+  font-family: "Tan Kulture Display";
+
+  letter-spacing: 0.05em;
+  padding-bottom: 10px;
+  text-align: center;
+  
+  
+}
+
+.bg-grey{
+  background-color: rgba(240, 238, 238, 0.521);
+}
+
+.gap{
+  margin-bottom: 100px;
+}
