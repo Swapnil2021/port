@@ -6,6 +6,7 @@ function TimeLine() {
     <div className='p-60'>
       <p className='Tan text-8xl uppercase'>Timeline</p>
       <ScrollTimeline></ScrollTimeline>
+       <p className='Tan text-8xl p-5 uppercase'>Timeline</p>
     </div>
    
         

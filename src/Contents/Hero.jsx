@@ -10,7 +10,19 @@ function Hero() {
       <p className='Tan text-9xl'>PORTFOLIO</p>
       
       <div className="flex justify-center gap-20 py-5">
-       <ShinyButton className="Tan text-9xl">hire me</ShinyButton> <ShinyButton className="Tan">Resume</ShinyButton></div>
+       <ShinyButton className="Tan text-9xl"  onClick={() => window.location.href = "mailto:swapnilsanjaysurve07@gmail.com"}>
+  
+    hire me
+
+</ShinyButton>
+       
+       <ShinyButton
+  className="Tan text-9xl"
+  onClick={() => {
+    window.open('/assets/SwapnilSurve.pdf', '_blank');}}
+>
+  Resume
+</ShinyButton></div>
     </div>
     <ScrollBasedVelocityDemo/>
     </>

@@ -5,6 +5,8 @@ import TimeLine from './Contents/TimeLine'
 import About from './Contents/About'
 import Contact from './Contents/Contact'
 import Skills from './Contents/Skills'
+import Projects from './Contents/Projects'
+
 function App() {
   return (
     <div>
@@ -12,7 +14,8 @@ function App() {
      <Hero></Hero>
      <About></About>
      <TimeLine></TimeLine>
-    <Skills></Skills>
+     <Skills></Skills>
+     <Projects></Projects>
      <Contact></Contact>
     </div>
 
