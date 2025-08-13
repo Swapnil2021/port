@@ -1,16 +1,18 @@
-import React from 'react'
+import {React} from 'react'
 import Header from './Contents/Header'
 import Hero from './Contents/Hero'
 import TimeLine from './Contents/TimeLine'
 import About from './Contents/About'
 import Contact from './Contents/Contact'
 import Skills from './Contents/Skills'
-import Projects from './Contents/Projects'
+import Projects from './Contents/Projects' 
+
 
 function App() {
+
   return (
     <div>
-      <Header/>
+     <Header/>
      <Hero></Hero>
      <About></About>
      <TimeLine></TimeLine>
@@ -23,3 +25,5 @@ function App() {
 }
 
 export default App
+
+

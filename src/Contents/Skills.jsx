@@ -1,5 +1,14 @@
 import React from 'react'
-
+import photo1 from "/assets/1.png"
+import photo2 from "/assets/2.png"
+import photo3 from "/assets/3.png"
+import photo4 from "/assets/4.png"
+import photo5 from "/assets/5.png"
+import photo6 from "/assets/6.png"
+import photo7 from "/assets/7.png"
+import photo8 from "/assets/8.png"
+import photo9 from "/assets/9.png"
+import database from "/assets/database.png"
 function Skills() {
   return (
 
@@ -44,15 +53,15 @@ export default Skills
 
 
 const iconPaths = [
-  '/src/assets/1.png',
-'/src/assets/2.png',
-'/src/assets/3.png',
-'/src/assets/4.png',
-'/src/assets/5.png',
-'/src/assets/6.png',
-'/src/assets/7.png',
-'/src/assets/8.png',
-'/src/assets/9.png',
-'/src/assets/database.png',
+  photo1,
+photo2,
+photo3,
+photo4,
+photo5,
+photo6,
+photo7,
+photo8,
+photo9,
+database,
 
 ];

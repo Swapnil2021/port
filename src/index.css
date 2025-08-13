@@ -6,18 +6,15 @@
 
 
 @font-face{
-  font-family: "Tan Kulture Display";
-  src:url(../src/assets/TAN\ KULTURE-DISPLAY.otf)
-
+  font-family: "TanKulture";
+  src:url(../assets/TANKULTURE.otf)
 }
 
 .Tan{
-  font-family: "Tan Kulture Display";
-
+  font-family: "TanKulture";
   letter-spacing: 0.05em;
   padding-bottom: 10px;
   text-align: center;
-  
   
 }
 
