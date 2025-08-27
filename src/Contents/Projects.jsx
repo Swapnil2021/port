@@ -10,45 +10,23 @@ import { Textarea } from "@/components/lightswind/textarea";
 
 function Projects() {
   return (
-    <div className='bg-blue-300 p-40'>
-      <p className='Tan text-8xl'>Projects</p>
-       <motion.div
-                    initial={{ opacity: 0, x: 50 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    viewport={{ once: true, amount: 0.2 }}
-                    transition={{ duration: 0.8, ease: "easeOut" }}
-                    className="p-8  rounded-2xl bg-white border shadow-lg bg-background"
-                >
-                    <form className="space-y-6  grid items-center justify-center h-full">
-                        <div className="grid grid-cols-1  md:grid-cols-2 gap-4">
-                            <div className="space-y-2 ">
-                                <label className="block Tan uppercase">First Name</label>
-                                <Input placeholder="First Name" required />
-                            </div>
-                            <div className="space-y-2 ">
-                                <label className="block Tan uppercase">Last Name</label>
-                                <Input placeholder="Last Name " required />
-                            </div>
-                        </div>
-                        <div className="space-y-2">
-                            <label className="block Tan uppercase">Email Address</label>
-                            <Input type="email" placeholder="Email Address" required />
-                        </div>
-                        <div className="space-y-2">
-                            <label className="block Tan uppercase">Subject</label>
-                            <Input placeholder="Subject" required />
-                        </div>
-                        <div className="space-y-2">
-                            <label className="block Tan uppercase">Message</label>
-                            <Textarea placeholder="Write your message here..." rows={4} required />
-                        </div>
-                        <Button onClick={
-                          submitHandler
-                        } type="submit" className="w-full Tan border" >
-                            Send Message
-                        </Button>
-                    </form>
-                </motion.div>
+    <div className='bg-black p-40'>
+      <p className='Pricedown text-8xl text-purple-600'>Projects</p>
+
+      <p className='text-white text-xl mt-10 mb-10 Pricedown uppercase border p-5 border-purple-600 '> 
+       <u className='bg-violet-600'> Chatting Application (MERN + Socket.io) </u><br />
+Developed a real-time chatting application using the MERN stack (MongoDB, Express.js, React.js, Node.js) integrated with Socket.io for instant, bidirectional communication between users. The application supports user authentication, private and group chats, message notifications, and persistent chat history. Implemented responsive UI with React for seamless experience across devices. Optimized backend APIs with Node.js and Express.js to handle real-time events efficiently. Used MongoDB for storing user details and chat logs securely.<br />
+
+This project showcases expertise in real-time web applications, WebSocket-based communication, and scalable architecture design using modern full-stack technologies.
+      </p>
+
+      <p className='text-white text-xl mt-10 mb-10 Pricedown border p-5 border-purple-600 uppercase'>
+    <u className='bg-violet-600'> Performance Management System – IKSC Knowledge Bridge</u> <br/>
+Developed and contributed to a Performance Management System aimed at tracking, evaluating, and improving employee performance within organizations. The system was designed with an intuitive React-based frontend to provide dashboards, performance metrics, and role-based access for employees, managers, and administrators. <br/>Implemented features such as goal setting, progress tracking, feedback management, and performance reviews. Focused on creating a responsive and user-friendly interface, ensuring smooth navigation across devices. Collaborated with the team to align technical implementation with business objectives and enhance overall <br/>productivity.
+
+This project demonstrates skills in React development, state management, UI/UX design, and integration of performance workflows into a scalable system.
+      </p>
+       
     </div>
   )
 }

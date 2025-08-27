@@ -2,8 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face{
+  font-family: "Pricedown";
+  src: url(../assets/Pricedown.otf);
+}
 
-
+.Pricedown{
+  font-family: "Pricedown";
+  ;
+}
 
 @font-face{
   font-family: "TanKulture";

@@ -23,6 +23,7 @@ function Skills() {
         flexWrap: 'wrap',
         justifyContent: 'center',
         padding: '1rem',
+        
       }}
     >
       {iconPaths.map((src, idx) => (
@@ -31,9 +32,11 @@ function Skills() {
           src={src}
           alt={`Icon ${idx + 1}`}
           style={{
-            width: 70,
-            height: 70,
+            width: 250,
+            height: 250,
             cursor: 'pointer',
+            border: '5px solid #ccc',
+            padding:"20px"
           }}
         />
       ))}
