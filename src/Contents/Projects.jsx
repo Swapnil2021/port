@@ -26,6 +26,13 @@ Developed and contributed to a Performance Management System aimed at tracking, 
 
 This project demonstrates skills in React development, state management, UI/UX design, and integration of performance workflows into a scalable system.
       </p>
+
+        <p className='text-white text-xl mt-10 mb-10 Pricedown border p-5 border-purple-600 uppercase'>
+    <u className='bg-violet-600'> Performance Management System – IKSC Knowledge Bridge</u> <br/>
+Developed and contributed to a Performance Management System aimed at tracking, evaluating, and improving employee performance within organizations. The system was designed with an intuitive React-based frontend to provide dashboards, performance metrics, and role-based access for employees, managers, and administrators. <br/>Implemented features such as goal setting, progress tracking, feedback management, and performance reviews. Focused on creating a responsive and user-friendly interface, ensuring smooth navigation across devices. Collaborated with the team to align technical implementation with business objectives and enhance overall <br/>productivity.
+
+This project demonstrates skills in React development, state management, UI/UX design, and integration of performance workflows into a scalable system.
+      </p>
        
     </div>
   )

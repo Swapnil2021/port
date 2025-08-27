@@ -2,7 +2,7 @@
   "name": "my-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://swapnil2021.github.io/port/",
+  "homepage": "https://Swapnil2021.github.io/port",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -34,7 +34,7 @@
     "react": "^18.3.1",
     "react-confetti": "^6.1.0",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^7.8.0",
+    "react-router-dom": "^7.8.2",
     "react-tweet": "^3.2.2",
     "tailwind-merge": "^2.5.3",
     "tailwindcss-animate": "^1.0.7"
